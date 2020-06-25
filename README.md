@@ -4,11 +4,21 @@ firmware for the entire project.
 
 ## Contribution Style
 In order to contribute to this repository:
+If you are making major changes that you will own, ie: new feature, driver:
  - Fork this repository.
  - Make your changes there, in any branching strategy that you like
  - Create a pull request from the specific branch in your repository with only
    the desired changes for a single pull request in it onto the branch in this
    repository to which those features should be added.
+
+If you are making minor changes or are collaborating with others in this org:
+ - Clone this repository.
+ - Create a new branch starting from the branch you will work off of
+   (usually, master) with a descriptive name to put your changes on.
+ - Make your changes, test them, and commit everything to your branch.
+ - Push the branch to this repository.
+ - Create a pull request from that new branch to the branch that you started
+   work from (again, usually master)
 
 ## Building the Firmware
 1. Run `python init.py`.
