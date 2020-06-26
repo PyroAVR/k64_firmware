@@ -1,7 +1,7 @@
 project('k64_base', 'c')
 
 # dependencies
-dependencies = []
+dependencies = [subproject('cmocka').get_variable('cmocka_dep')]
 
 # Project include path.
 local_headers = ['include']
